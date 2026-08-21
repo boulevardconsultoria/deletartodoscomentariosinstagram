@@ -1,35 +1,30 @@
 # Instagram Comment Bulk Deletion Script
-
-Script JavaScript para o navegador que automatiza a exclusão de comentários feitos pela própria conta através da página **Sua atividade → Comentários** do Instagram.
-
-O script funciona diretamente no navegador, utilizando o DOM da página e os elementos que o Instagram disponibiliza na interface.
-
-> ⚠️ Aviso: este script depende da estrutura atual do Instagram. Como o Instagram altera frequentemente o HTML e os componentes da página, o script pode parar de funcionar sem aviso.
-
----
-
-## ✨ Recursos
-
-- Exclusão de comentários em lote
-- Não precisa instalar programas adicionais
-- Não utiliza API externa
-- Não solicita senha ou credenciais
-- Executado diretamente pelo Console do navegador
-- Processamento em lotes para reduzir a quantidade de ações simultâneas
-- Aguarda o carregamento da interface entre as operações
-- Detecta automaticamente os botões de seleção e exclusão
-- Continua processando enquanto houver comentários disponíveis
-
----
-
-## 📌 Requisitos
-
-- Conta do Instagram
-- Navegador baseado em Chromium ou Firefox
-- Estar logado na conta do Instagram
-- Acesso à página de comentários da seção Sua atividade
-
-Recomenda-se utilizar a interface do Instagram em português, pois a versão atual do script procura o botão:
-
-```text
-Creditos: https://instagram.com/jedersonsantoss
+#
+# Desenvolvido por: Jederson Santos
+# Instagram: https://instagram.com/jedersonsantoss
+#
+# Como usar:
+# 1. Acesse:
+#    https://www.instagram.com/your_activity/interactions/comments
+#
+# 2. Faça login na sua conta do Instagram.
+#
+# 3. Pressione F12 para abrir o DevTools.
+#
+# 4. Acesse a aba "Console".
+#
+# 5. Cole o conteúdo do arquivo JavaScript neste Console
+#    e pressione Enter.
+#
+# ⚠️ AVISO:
+# Este script depende da estrutura atual do Instagram e pode
+# parar de funcionar caso a plataforma altere sua interface.
+#
+# O script não solicita senha, não utiliza API externa e é
+# executado diretamente no navegador.
+#
+# O projeto não possui vínculo oficial com Instagram ou Meta.
+#
+# Créditos:
+# Jederson Santos
+# https://instagram.com/jedersonsantoss
