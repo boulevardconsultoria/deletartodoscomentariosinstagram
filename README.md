@@ -1,11 +1,10 @@
-# deletartodoscomentariosinstagram
 # Instagram Comment Bulk Deletion Script
 
 Script JavaScript para o navegador que automatiza a exclusão de comentários feitos pela própria conta através da página **Sua atividade → Comentários** do Instagram.
 
 O script funciona diretamente no navegador, utilizando o DOM da página e os elementos que o Instagram disponibiliza na interface.
 
-> ⚠️ **Aviso:** este script depende da estrutura atual do Instagram. Como o Instagram altera frequentemente o HTML e os componentes da página, o script pode parar de funcionar sem aviso.
+> ⚠️ Aviso: este script depende da estrutura atual do Instagram. Como o Instagram altera frequentemente o HTML e os componentes da página, o script pode parar de funcionar sem aviso.
 
 ---
 
@@ -28,9 +27,9 @@ O script funciona diretamente no navegador, utilizando o DOM da página e os ele
 - Conta do Instagram
 - Navegador baseado em Chromium ou Firefox
 - Estar logado na conta do Instagram
-- Acesso à página de comentários da seção **Sua atividade**
+- Acesso à página de comentários da seção Sua atividade
 
-Recomenda-se utilizar a interface do Instagram em **português**, pois a versão atual do script procura o botão:
+Recomenda-se utilizar a interface do Instagram em português, pois a versão atual do script procura o botão:
 
 ```text
 Creditos: https://instagram.com/jedersonsantoss
